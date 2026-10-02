@@ -1,0 +1,38 @@
+# Python environment & caches
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environments & secrets
+.env
+.env.*
+!.env.example
+
+# Database & local data outputs
+gitrec_store.db
+work_items_review.json
+work_items_review.csv
+scratch/
+
+# Testing & linting caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
